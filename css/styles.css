@@ -1,0 +1,185 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    padding-top: 50px; 
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 0.5rem 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    height: 50px; 
+    box-sizing: border-box; 
+}
+
+nav {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; 
+}
+
+nav li {
+    margin: 0 1rem; 
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem; 
+    padding: 0.5rem 1rem;
+    border-radius: 4px; 
+    transition: color 0.3s; 
+}
+
+nav a:hover {
+    color: rgb(80, 86, 255);
+    text-decoration: none; 
+}
+
+/* Page-Specific Styles */
+#index-page {
+    text-align: center;
+}
+
+#login-page, #register-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+form {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+}
+
+form label {
+    display: block;
+    margin: 0.5rem 0 0.2rem;
+    font-weight: bold;
+}
+
+form input {
+    width: 100%;
+    padding: 0.8rem;
+    margin: 0.5rem 0 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: black;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+form button:hover {
+    background-color: rgb(80, 86, 255);
+}
+
+a {
+    color: #0056b3;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Admin Page Styles */
+#admin-page {
+    padding: 1rem;
+}
+
+#admin-page h2, #admin-page h3 {
+    margin: 0 0 1rem;
+}
+
+#event-form {
+    margin-bottom: 1.5rem;
+}
+
+#event-list div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    border-bottom: 1px solid #ddd;
+}
+
+#event-list button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 0.4rem 0.8rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#event-list button:hover {
+    background-color: #c0392b;
+}
+/* Admin Page Styles */
+#admin-page {
+    padding: 1rem;
+}
+
+#admin-page h2, #admin-page h3 {
+    margin: 0 0 1rem;
+}
+
+#event-form {
+    margin-bottom: 1.5rem;
+}
+
+#event-list div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    border-bottom: 1px solid #ddd;
+}
+
+#event-list button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 0.4rem 0.8rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#event-list button:hover {
+    background-color: #c0392b;
+}
+
+/* Events Page Styles */
+#events-page {
+    padding: 1rem;
+    margin-top: 50px; /* Ensure this matches the header height */
+}
